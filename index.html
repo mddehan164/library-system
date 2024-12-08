@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="logo" id="logo"><a href="#home-page">Logo</a></div>
+        <div class="nav-items">
+            <i class="ri-menu-line" id="menuBtn"></i>
+            <a class="nav-link" href="#departments">Departments</a>
+            <a class="nav-link" href="#aboutUs">About Us</a>
+            <a class="nav-link" href="#contactUs">Contact Us</a>
+            <a class="nav-link" href="#login" id="navLogin">Login</a>
+        </div>
+    </nav>
+    <div class="side-bar">
+        <i class="ri-close-large-fill" id="closeBtn"></i>
+        <a href="#departments">Departments</a>
+        <a href="#aboutUs">About Us</a>
+        <a href="#contactUs">Contact Us</a>
+        <a href="#login" id="sideBarLogin">Login</a>
+    </div>
+    <main>
+        <div id="home-page">
+            <div class="bg-illustrator">
+                <img src="images/illustrator.png" alt="">
+            </div>
+            <div class="text">
+                <div id="vanishForSignup">
+                    <h2>Wellcome to</h2>
+                    <h1><span style="color: #2bec4b;">On</span>line <span style="color: #4217ee;">Library</span> </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, doloribus hic autem ullam id fuga magni velit. Inventore voluptatibus eos aspernatur sint iure? Odio, perferendis. Rem quisquam voluptas, placeat libero quia nesciunt quod? Optio, eveniet? Quisquam molestiae quasi eum vero fugit doloribus iusto voluptatibus expedita dolores ipsam, dolor cumque aperiam aliquam voluptate odit.</p>
+                    <button id="getStarted">
+                        Get Started
+                    </button>
+                </div>
+                <form id="signUp">
+                    <h1><span style="color: #2bec4b;">On</span>line <span style="color: #4217ee;">Library</span> </h1>
+                    <label for="Name">Name</label>
+                    <input type="text" placeholder="Your Name"><br>
+                    <label for="Department">Department</label>
+                    <input type="text" placeholder="Department Name"><br>
+                    <label for="status">Status</label>
+                    <input type="text" placeholder="Study Status"><br>
+                    <label for="id">Student ID</label>
+                    <input type="text" placeholder="Study Status"><br>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Your Email"><br>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Set a Password"><br>
+                    <button id="signUpBtn"> Sign In</button>
+                </form>
+            </div>
+        </div>
+        <div id="login-box">
+            <video autoplay loop muted class="bg-login-video">
+                    <source src="videos/login.mp4" type="video/mp4">
+                </video>
+            <form id="login-form">
+                <label for="Email">E-mail</label><br>
+                <input type="email" placeholder="Your e-mail"><br>
+                <label for="ID">Student ID</label><br>
+                <input type="number" placeholder="Your ID"><br>
+                <label for="password">Password</label><br>
+                <input type="password" placeholder="Your Password"><br>
+                <button id="loginBtn">Login</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>&copy Copy Right-----</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
